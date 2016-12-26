@@ -4,12 +4,12 @@
   <%= form_for @group do |f| %>
 
   <% if @group.errors.any? %>
-    <ul>
+  <ul>
     <% @group.errors.full_messages.each do |msg| %>
-    <li><%= msg %></li>
-      <% end %>
-    </ul>
+      <li><%= msg %></li>
     <% end %>
+  </ul>
+  <% end %>
 
 
   标题
